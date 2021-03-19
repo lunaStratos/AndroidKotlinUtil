@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.LottoFrag"
+    android:layout_gravity="center"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/lottoNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="17dp"
+            android:hint="숫자입력"
+            android:inputType="textPersonName"
+            android:text="" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/lottoResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결과" />
+        <TextView
+            android:id="@+id/lottoPriceResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결과" />
+        <TextView
+            android:id="@+id/lottoPriceNumResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결과" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/lottoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="검색"
+        android:textSize="20dp"
+        android:layout_gravity="bottom"/>
+</FrameLayout>
